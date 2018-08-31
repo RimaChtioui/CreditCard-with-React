@@ -1,0 +1,123 @@
+.creditcard {
+  display: flex;
+}
+.forminput {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 350px;
+  padding: 15px;
+}
+
+.input {
+  margin: 10px;
+  height: 30px;
+  border-radius: 6px;
+  width: 300px;
+  color: grey;
+}
+.container {
+  width: 35rem;
+  height: 23rem;
+  border: 1px solid black;
+  border-radius: 5%;
+  background-image: url("bg.jpeg");
+}
+
+.title {
+  display: flex;
+  flex-direction: row-reverse;
+  margin: 30px 30px 3px 0;
+  padding: 0;
+  font-size: 35px;
+  font-weight: bold;
+  color: white;
+}
+
+.title h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.puce img {
+  border: 1px solid transparent;
+  border-radius: 14%;
+  width: 80px;
+  margin-top: 25px;
+  margin-left: 30px;
+}
+
+.numcard {
+  color: white;
+  font-size: 1.5em;
+  padding: 0.5rem;
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+  letter-spacing: 0.1em;
+}
+
+.numcardspan {
+  width: 30rem;
+  height: fit-content;
+}
+.bottomsection {
+  display: flex;
+  justify-content: space-between;
+  color: rgb(255, 255, 255);
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+}
+
+.bottomright {
+  display: flex;
+  margin-right: 0.5rem;
+}
+.validity {
+  display: flex;
+  margin-right: 0.3rem;
+}
+.bottomsection span {
+  font-size: 25px;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+}
+
+.bottomsection h4 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.bottomsection p {
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: rgb(11, 11, 71);
+}
+
+.validthru {
+  margin-top: 1rem;
+}
+.deadline {
+  display: flex;
+  flex-wrap: wrap;
+  max-height: 4rem;
+  max-width: 4rem;
+
+  margin-top: 1rem;
+  color: rgb(11, 11, 71);
+}
+
+.deadline p {
+  font-size: 9px;
+  margin: 0;
+}
+.deadline h1 {
+  font-size: 28px;
+  margin: 0;
+  text-align: center;
+  padding: 0;
+}
+
+.visaimg {
+  margin-right: 0;
+}
